@@ -45,9 +45,9 @@
                                 {% for perm in model_perms %}
                                 <td>
                                     {% if perm.codename in user_perms %}
-                                    <img src="{% static "/admin/img/icon-yes.gif" %}"/>
+                                    <img src="{% static "admin/img/icon-yes.gif" %}"/>
                                     {% else %}
-                                    <img src="{% static "/admin/img/icon-no.gif" %}"/>
+                                    <img src="{% static "admin/img/icon-no.gif" %}"/>
                                     {% endif %}
                                 </td>
                                 {% endfor %}
@@ -106,9 +106,9 @@
                                 {% for perm in model_perms %}
                                 <td>
                                     {% if perm.codename in group_perms %}
-                                    <img src="{% static "/admin/img/icon-yes.gif" %}"/>
+                                    <img src="{% static "admin/img/icon-yes.gif" %}"/>
                                     {% else %}
-                                    <img src="{% static "/admin/img/icon-no.gif" %}"/>
+                                    <img src="{% static "admin/img/icon-no.gif" %}"/>
                                     {% endif %}
                                 </td>
                                 {% endfor %}
